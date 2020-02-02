@@ -4,13 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ProjectGuid>{dc46fea6-9766-45ad-9b50-c16a2672543f}</ProjectGuid>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>Base Domain layer for an onion architecture</Description>
+    <Description>Basic Domain layer for an onion architecture</Description>
     <Authors>Andrej Zolger</Authors>
-    <Product>Onion.Core.Data</Product>
+    <Product>Onion Architecture Core Domain Library</Product>
     <PackageProjectUrl>https://github.com/zolgera/Onion.Core.Data</PackageProjectUrl>
     <RepositoryUrl>https://github.com/zolgera/Onion.Core.Data</RepositoryUrl>
-    <PackageTags>Onion Arhitecture Domain</PackageTags>
+    <PackageTags>Onion Architecture Domain</PackageTags>
     <PackageId>Onion.Core.Data</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>2020</Copyright>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
