@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProjectGuid>{dc46fea6-9766-45ad-9b50-c16a2672543f}</ProjectGuid>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Base Domain layer for an onion architecture</Description>
+    <Authors>Andrej Zolger</Authors>
+    <Product>Onion.Core.Data</Product>
+    <PackageProjectUrl>https://github.com/zolgera/Onion.Core.Data</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zolgera/Onion.Core.Data</RepositoryUrl>
+    <PackageTags>Onion Arhitecture Domain</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pagination\**" />
+    <EmbeddedResource Remove="Pagination\**" />
+    <None Remove="Pagination\**" />
+  </ItemGroup>
+
+</Project>
