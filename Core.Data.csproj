@@ -10,6 +10,7 @@
     <PackageProjectUrl>https://github.com/zolgera/Onion.Core.Data</PackageProjectUrl>
     <RepositoryUrl>https://github.com/zolgera/Onion.Core.Data</RepositoryUrl>
     <PackageTags>Onion Arhitecture Domain</PackageTags>
+    <PackageId>Onion.Core.Data</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
